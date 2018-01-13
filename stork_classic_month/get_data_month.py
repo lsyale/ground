@@ -22,7 +22,8 @@ for function in functions:
 	name=dir + function + mydatetime +".xlsx"
 	funs=fun+"("+")"+".to_excel('"+ name +"')"	
 	if os.path.exists(name):
-		os.remove(name)
+		#os.remove(name)
+		continue
 	try:
 		exec(funs)
 		print(name),;
