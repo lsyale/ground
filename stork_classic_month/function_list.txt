@@ -12,4 +12,3 @@ get_suspended
 profit_data
 xsg_data
 new_stocks
-
