@@ -1,0 +1,57 @@
+Shibor拆放利率	shibor_data
+银行报价数据	shibor_quote_data
+Shibor均值数据	shibor_ma_data
+贷款基础利率（LPR）	lpr_data
+LPR均值数据	lpr_ma_data
+每日龙虎榜列表	top_list
+个股上榜统计	cap_tops
+营业部上榜统计	broker_tops
+龙虎榜机构席位追踪	inst_tops
+龙虎榜机构席位成交明细	inst_detail
+即时财经新闻	get_latest_news() #默认获取最近80条新闻数据，只提供新闻类型、链接和标题
+个股信息地雷	get_notices
+新浪股吧新闻	guba_sina
+存款利率	get_deposit_rate
+贷款利率	get_loan_rate
+存款准备金率	get_rrr
+货币供应量	get_money_supply
+货币供应量(年底余额)	get_money_supply_bal
+国内生产总值(年度)	get_gdp_year
+国内生产总值(季度)	get_gdp_quarter
+三大需求对GDP贡献	get_gdp_for
+三大产业对GDP拉动	get_gdp_pull
+三大产业贡献率		get_gdp_contrib
+居民消费价格指数	get_cpi
+工业品出厂价格指数	get_ppi
+沪深股票列表	get_stock_basics
+业绩预告	
+业绩报告（主表）	get_report_data
+盈利能力数据	get_profit_data
+营运能力数据	get_operation_data
+成长能力数据	get_growth_data
+偿债能力数据	get_debtpaying_data
+现金流量数据	get_cashflow_data
+行业分类	get_industry_classified
+概念分类	get_concept_classified
+地域分类	get_area_classified
+中小板分类	get_sme_classified
+创业板分类	get_gem_classified
+风险警示板分类	get_st_classified
+沪深300成份股及权重	get_hs300s
+上证50成份股	get_sz50s
+中证500成份股	get_zz500s
+终止上市股票列表	get_terminated
+暂停上市股票列表	get_suspended
+分配预案	profit_data
+业绩预告	forecast_data
+限售股解禁	xsg_data
+基金持股	fund_holdings
+新股上市	new_stocks
+融资融券（沪市）	sh_margins
+融资融券（深市）	sz_margins
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+get_report_data
+get_profit_data
+get_operation_data
+get_growth_data
+get_debtpaying_data
+get_cashflow_data
+forecast_data
+fund_holdings
