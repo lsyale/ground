@@ -1,0 +1,1 @@
+get_industry_classified,./../stork_classic_month/get_industry_classified-13-01-2018.xlsx
