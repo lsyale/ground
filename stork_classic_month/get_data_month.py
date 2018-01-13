@@ -8,6 +8,7 @@ dir=os.getcwd() + "/"
 functions=[]
 functions_list= dir + "function_list.txt"
 mydatetime=str(time.strftime("-%d-%m-%Y"))
+tempdata_dir= dir + "../tempdata/"
 
 print("get tushare function list"),;
 fp=open(functions_list)
@@ -19,7 +20,7 @@ fp.close()
 print("get global ecomy month data"),;
 for function in functions:			
 	fun="ts."+function
-	name=dir + function + mydatetime +".xlsx"
+	name=tempdata_dir + function + mydatetime +".xlsx"
 	funs=fun+"("+")"+".to_excel('"+ name +"')"	
 	if os.path.exists(name):
 		#os.remove(name)

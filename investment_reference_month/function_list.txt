@@ -1,0 +1,7 @@
+profit_data
+forecast_data
+xsg_data
+fund_holdings
+new_stocks
+sh_margins
+sz_margins

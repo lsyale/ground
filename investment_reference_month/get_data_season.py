@@ -23,12 +23,6 @@ fp.close()
 print("get stock basics"),;
 ts.get_stock_basics().to_excel(get_stock_basics)
 
-#sys.exit(0) 
-#function=sys.argv[0][sys.argv[0].rfind(os.sep)+1:]
-#function=function.split('.')[0]
-#function="get_report_data"
-#fun="ts."+function
-
 print("get stock season data"),;
 for year in range(2012,2018):
 	for month in range(1,5):
